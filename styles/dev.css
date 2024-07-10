@@ -6,9 +6,14 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 /* banner part start from here */
 #hero {
-    height: 470px;
+    height: 580px;
     background-image: url("../assets/Hero-bg.png");
     background-size: cover;
     background-position: center;
@@ -18,7 +23,7 @@
 }
 
 #hero .hero-content {
-    width: 712px;
+    width: 884px;
 }
 
 .img-container {
@@ -38,9 +43,9 @@
 #hero .hero-content .title {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 36px;
+    font-size: 42px;
     font-weight: 800;
-    line-height: 50px;
+    line-height: 60px;
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 16px;
@@ -49,9 +54,9 @@
 #hero .hero-content .description {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
@@ -65,12 +70,12 @@
 #hero .hero-content .bg-btn {
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
-    font-size: 10px;
+    font-size: 18px;
     font-weight: 600;
-    line-height: 14px;
+    line-height: 20px;
     letter-spacing: 0%;
     text-align: center;
-    padding: 10px 14px 10px 14px;
+    padding: 12px 16px 12px 16px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     border: none;
@@ -80,40 +85,41 @@
 
 /* why development part start from here */
 #middle-part {
-    width: 820px;
-    height: 1004px;
-    margin-left: 106px;
+    width: 1014px;
+    height: 1241px;
+    margin-left: 109px;
     margin-right: 109px;
-    margin-top: 54px;
-    border-radius: 5px;
+    margin-top: 60px;
+    border-radius: 8px;
     background: rgba(13, 19, 33, 0.02);
 }
 
 #middle-part header {
     text-align: center;
-    margin-bottom: 36px;
+    margin-bottom: 40px;
 }
 
 #middle-part header h3 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 800;
-    line-height: 26px;
+    line-height: 33px;
     letter-spacing: 0%;
-    text-align: center;
-    margin-bottom: 16px;
+    text-align: justify;
+    margin-bottom: 20px;
 }
 
 #middle-part header p {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
+    margin-bottom: 20px;
 }
 
 .middle-card {
@@ -121,38 +127,39 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 36px;
+    gap: 250px;
+    padding: 40px;
 }
 
 .middle-card h3 {
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
-    font-size: 16px;
+    font-size: 21px;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 32px;
     letter-spacing: 0%;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
 }
 
 .middle-card p {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 23px;
     letter-spacing: 0%;
     opacity: 0.7;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
 }
 
 .middle-card button {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
-    line-height: 16px;
+    line-height: 20px;
     letter-spacing: 0%;
-    padding: 8px 14px 8px 14px;
+    padding: 12px 17px 12px 17px;
     text-align: center;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
@@ -164,13 +171,13 @@
 /* Inspiration part start here */
 
 #inspiration-part {
-    height: 560px;
-    width: 820px;
-    margin-left: 106px;
+    height: 692px;
+    width: 1014px;
+    margin-left: 109px;
     margin-right: 109px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
-    border-radius: 10px;
+    border-radius: 14px;
 }
 
 #inspiration-part header {
@@ -181,30 +188,31 @@
 #inspiration-part header h3 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 33px;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 }
 
 #inspiration-part header p {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
     opacity: 0.7;
 }
 
 #inspiration-part iframe {
-    width: 775px;
-    border-radius: 10px;
-    margin: 24px;
+    width: 958px;
+    height: 490;
+    border-radius: 12px;
+    margin: 20px;
 }
 
 /* inspiration part ends here */
@@ -212,9 +220,9 @@
 /* my current target part start here */
 
 #card-box {
-    height: 334px;
-    width: 820px;
-    margin-left: 106px;
+    height: 412px;
+    width: 1014px;
+    margin-left: 109px;
     margin-right: 109px;
     margin-top: 107px;
 }
@@ -222,64 +230,64 @@
 #card-box header h3 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 26px;
+    font-size: 29px;
     font-weight: 800;
-    line-height: 28px;
+    line-height: 33px;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 16px;
+    margin-bottom: 18px;
 }
 
 #card-box header p {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
-    margin-bottom: 35px;
+    margin-bottom: 37px;
 }
 
 .cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-self: center;
-    gap: 16px;
+    gap: 20px;
 }
 
 #card-one {
-    border-radius: 10px;
+    border-radius: 12px;
     background: rgba(255, 76, 30, 0.05);
 }
 
 #card-two {
-    border-radius: 10px;
+    border-radius: 12px;
     background: rgba(0, 76, 232, 0.05);
 }
 
 #card-three {
-    border-radius: 16px;
+    border-radius: 12px;
     background: rgba(255, 223, 0, 0.05);
 }
 
 .target-card {
-    padding: 10px;
+    padding: 14px;
 }
 
 .cards .target-card img {
     width: 50px;
     height: auto;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 
 .cards .target-card h4 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 16px;
+    font-size: 21px;
     font-weight: 800;
-    line-height: 24px;
+    line-height: 32px;
     letter-spacing: 0%;
     text-align: left;
 }
@@ -287,9 +295,9 @@
 .cards .target-card p {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 16px;
+    line-height: 23px;
     letter-spacing: 0%;
     text-align: left;
 }
@@ -297,9 +305,9 @@
 .cards .target-card a {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 700;
-    line-height: 14px;
+    line-height: 20px;
     letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;
@@ -310,11 +318,11 @@
 /* support part start from here */
 
 #support {
-    width: 820px;
-    height: 226px;
-    margin-left: 106px;
+    width: 1014px;
+    height: 280px;
+    margin-left: 109px;
     margin-right: 109px;
-    border-radius: 8px;
+    border-radius: 10px;
     background-image: url("../assets/handshake.jpg");
     background-size: cover;
     background-position: center;
@@ -325,26 +333,27 @@
 }
 
 #support .support-container {
-    width: 752px;
+    width: 930px;
+    height: 165px;
 }
 
 #support .support-container h3 {
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 700;
-    line-height: 26px;
+    line-height: 32px;
     letter-spacing: 0%;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
 }
 
 #support .support-container p {
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
     margin-bottom: 16px;
@@ -352,26 +361,70 @@
 }
 
 #support .support-container input {
-    width: 384px;
-    height: 42px;
+    width: 487px;
+    height: 50px;
     margin-left: 110px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
-    border-radius: 5px;
+    border-radius: 8px;
     background: rgb(255, 255, 255);
     text-align: center;
 }
 
 #support .support-container button {
-    width: 86px;
-    height: 42px;
+    width: 106px;
+    height: 50px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
-    line-height: 18px;
+    line-height: 20px;
     letter-spacing: 0%;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 8px;
     background: rgb(255, 255, 255);
+}
+
+/* support parts end here */
+
+/* footer part start from here */
+
+#footer-part {
+    width: 1280px;
+    height: 89px;
+    margin-top: 72px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-container {
+    width: 1014px;
+    height: 32px;
+    margin-left: 109px;
+    margin-right: 109px;
+}
+
+.footer-container h4 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 75px;
+}
+.footer-container a{
+    padding: 10px;
+}
+.footer-container .fav-img{
+    margin-top: 75px;
+}
+.footer-container {
+    width: 1014px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
