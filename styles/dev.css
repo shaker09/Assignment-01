@@ -212,7 +212,7 @@
 /* my current target part start here */
 
 #card-box {
-    height: 442px;
+    height: 334px;
     width: 820px;
     margin-left: 106px;
     margin-right: 109px;
@@ -263,7 +263,8 @@
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
 }
-.target-card{
+
+.target-card {
     padding: 10px;
 }
 
@@ -302,4 +303,75 @@
     letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;
+}
+
+/* current target part ends here */
+
+/* support part start from here */
+
+#support {
+    width: 820px;
+    height: 226px;
+    margin-left: 106px;
+    margin-right: 109px;
+    border-radius: 8px;
+    background-image: url("../assets/handshake.jpg");
+    background-size: cover;
+    background-position: center;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#support .support-container {
+    width: 752px;
+}
+
+#support .support-container h3 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#support .support-container p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+    opacity: 0.7;
+}
+
+#support .support-container input {
+    width: 384px;
+    height: 42px;
+    margin-left: 110px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#support .support-container button {
+    width: 86px;
+    height: 42px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
 }
