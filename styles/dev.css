@@ -6,6 +6,7 @@
     padding: 0;
 }
 
+/* banner part start from here */
 #hero {
     height: 470px;
     background-image: url("../assets/Hero-bg.png");
@@ -20,9 +21,10 @@
     width: 712px;
 }
 
-.img-container{
+.img-container {
     text-align: center;
 }
+
 #hero .hero-content .hero-img {
     position: relative;
     padding-left: 50px;
@@ -56,9 +58,10 @@
     margin-bottom: 24px;
 }
 
-.btn-container{
+.btn-container {
     text-align: center;
 }
+
 #hero .hero-content .bg-btn {
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
@@ -71,4 +74,87 @@
     border-radius: 8px;
     background: rgb(13, 19, 33);
     border: none;
+}
+
+/* banner part end here */
+
+/* why development part start from here */
+#middle-part {
+    width: 820px;
+    height: 1004px;
+    margin-left: 106px;
+    margin-right: 109px;
+    margin-top: 54px;
+    border-radius: 5px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+#middle-part header {
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+#middle-part header h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#middle-part header p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.middle-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+}
+
+.middle-card h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
+}
+
+.middle-card p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.middle-card button {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    padding: 8px 14px 8px 14px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
 }
