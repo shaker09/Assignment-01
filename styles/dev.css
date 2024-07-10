@@ -87,7 +87,7 @@ html {
 #middle-part {
     width: 1014px;
     height: 1241px;
-    margin-left: 135px;
+    margin-left: 145px;
     margin-right: 135px;
     margin-top: 60px;
     border-radius: 8px;
@@ -106,7 +106,7 @@ html {
     font-weight: 800;
     line-height: 33px;
     letter-spacing: 0%;
-    text-align: justify;
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -173,7 +173,7 @@ html {
 #inspiration-part {
     height: 692px;
     width: 1014px;
-    margin-left: 135px;
+    margin-left: 145px;
     margin-right: 135px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
@@ -222,7 +222,7 @@ html {
 #card-box {
     height: 412px;
     width: 1014px;
-    margin-left: 135px;
+    margin-left: 145px;
     margin-right: 135px;
     margin-top: 107px;
 }
@@ -321,8 +321,8 @@ html {
     width: 1014px;
     height: 280px;
     margin-left: 135px;
+    margin-left: 145px;
     margin-right: 135px;
-    border-radius: 10px;
     background-image: url("../assets/handshake.jpg");
     background-size: cover;
     background-position: center;
@@ -400,7 +400,7 @@ html {
 .footer-container {
     width: 1014px;
     height: 32px;
-    margin-left: 135px;
+    margin-left: 145px;
     margin-right: 135px;
 }
 
