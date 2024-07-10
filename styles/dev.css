@@ -158,3 +158,52 @@
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
 }
+
+/* why web development part ends here */
+
+/* Inspiration part start here */
+
+#inspiration-part {
+    height: 560px;
+    width: 820px;
+    height: 1004px;
+    margin-left: 106px;
+    margin-right: 109px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 10px;
+}
+
+#inspiration-part header {
+    text-align: center;
+    margin-top: 64px;
+}
+
+#inspiration-part header h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+#inspiration-part header p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 35px;
+    opacity: 0.7;
+}
+
+#inspiration-part iframe {
+    width: 775px;
+    border-radius: 10px;
+    margin: 24px;
+}
